@@ -1,6 +1,6 @@
 🦁 ThakurOS
 
-    A custom-engineered, reproducible Arch Linux distribution built for stability and standardized development environments.
+A custom-engineered, reproducible Arch Linux distribution built for stability and standardized development environments.
 
 🚀 Project Overview
 
@@ -9,19 +9,19 @@ ThakurOS is a custom Linux distribution architected from the ground up using the
 This project demonstrates Systems Engineering capabilities, specifically focusing on automated provisioning, kernel configuration for virtualized environments, and reproducible infrastructure.
 🛠️ Key Engineering Features
 
-    Declarative Packaging: Utilizes a strict manifest (packages.x86_64) to define the system state, eliminating "drift" and ensuring every build is identical.
+Declarative Packaging: Utilizes a strict manifest (packages.x86_64) to define the system state, eliminating "drift" and ensuring every build is identical.
 
-    Automated Provisioning: Features a custom engineering script (custom_build.sh) that:
+Automated Provisioning: Features a custom engineering script (custom_build.sh) that:
 
-        Automates user creation and permission group assignments (wheel, adm).
+Automates user creation and permission group assignments (wheel, adm).
 
-        Configures systemd services (NetworkManager, Bluetooth, SDDM) at the root level (airootfs) before boot.
+Configures systemd services (NetworkManager, Bluetooth, SDDM) at the root level (airootfs) before boot.
 
-        Injects custom security policies and password hashing using OpenSSL.
+Injects custom security policies and password hashing using OpenSSL.
 
-    Virtualized Optimization: Includes a curated driver stack (open-vm-tools, spice-vdagent, mesa) specifically tuned for high-performance deployment on hypervisors like Oracle VirtualBox and VMware.
+Virtualized Optimization: Includes a curated driver stack (open-vm-tools, spice-vdagent, mesa) specifically tuned for high-performance deployment on hypervisors like Oracle VirtualBox and VMware.
 
-    Custom Desktop Environment: Pre-configured KDE Plasma session with SDDM, offering a balance of performance and modern UI/UX.
+Custom Desktop Environment: Pre-configured KDE Plasma session with SDDM, offering a balance of performance and modern UI/UX.
 
 📂 Project Structure
 Bash
