@@ -2,6 +2,7 @@
 
 A custom-engineered, reproducible Arch Linux distribution built for stability and standardized development environments.
 
+![ThakurOS Screenshot](screenshots/desktop-preview.png)
 🚀 Project Overview
 
 ThakurOS is a custom Linux distribution architected from the ground up using the Arch Linux base. Unlike standard installations, this OS is built using a declarative build pipeline (archiso), ensuring that the entire operating system state—from installed packages to system configurations—is defined in code.
@@ -70,5 +71,6 @@ The generated ISO (out/ThakurOS-x86_64.iso) is validated to boot on:
 📜 License
 
 This project is open-source and available under the MIT License.
+
 
 Architected by Harshwardhan Singh Thakur as a Systems Engineering Project.
