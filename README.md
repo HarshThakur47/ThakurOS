@@ -2,7 +2,7 @@
 
 A custom-engineered, reproducible Arch Linux distribution built for stability and standardized development environments.
 
-![ThakurOS Screenshot](screenshots/desktop-preview.png)
+![ThakurOS Screenshot](screenshorts/desktop-preview.png)
 
 🚀 Project Overview
 
@@ -75,4 +75,5 @@ This project is open-source and available under the MIT License.
 
 
 Architected by Harshwardhan Singh Thakur as a Systems Engineering Project.
+
 
